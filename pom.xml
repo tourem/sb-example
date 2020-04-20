@@ -15,7 +15,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <entrepot-version>1.29.0</entrepot-version>
-    <spring-batch.version>3.0.9.RELEASE</spring-batch.version>
+    <spring-batch.version>4.2.2.RELEASE</spring-batch.version>
     <apache-codec.version>1.7</apache-codec.version>
     <spring-version>4.1.1.RELEASE</spring-version>
     <lombok.version>1.16.18</lombok.version>
