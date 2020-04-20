@@ -1,0 +1,30 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/valorisation/facturation/recuperation-facturations-consommation-journaliere.json",
+    "bodyPatterns" : [ {
+      "equalToJson" : "[{\"idCanal\":3,\"idPdc\": 1, \"idPdm\": 3, \"resolutionSeconde\":3600,\"ressource\": \"GAZ\", \"donneesDetaillees\":{\"2018-01-01T00:00:00.000+01:00\":10.0,\"2018-01-02T00:00:00.000+01:00\":15.5 }}]",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ],
+    "basicAuth" : {
+      "username" : "test",
+      "password" : "test"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+        {
+          "idCanal":1,
+          "donneesJournalieres":{
+            "2018-01-01":100.0,
+            "2018-01-02":80.0
+          }
+        }
+      ]
+  }
+}

@@ -1,0 +1,3 @@
+@Library('pipeline-library') _
+
+buildPlugin(jdk: 'oracle-jdk-8u162', mailTo: "${MAIL_TO}")

@@ -1,0 +1,10 @@
+.idea/
+*.iml
+*.DS_Store
+
+*/target
+target
+
+src/main/resources/context-batch-beta-virt\.properties
+
+src/main/resources/context-batch-integ\.properties

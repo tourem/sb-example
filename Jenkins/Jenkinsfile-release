@@ -1,0 +1,3 @@
+@Library('pipeline-library') _
+
+releasePlugin(releaseVersion: "${RELEASE_VERSION}", snapshotVersion: "${NEXT_SNAPSHOT_VERSION}", jdk: 'oracle-jdk-8u162')
