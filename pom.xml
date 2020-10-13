@@ -22,7 +22,7 @@
     <jackson-2.version>2.6.2</jackson-2.version>
     <aspectj.version>1.8.10</aspectj.version>
 
-    <junit.version>4.12</junit.version>
+    <junit.version>4.13.1</junit.version>
     <assertj.version>2.9.1</assertj.version>
     <mockito.version>1.9.5</mockito.version>
     <equalsverifier.version>3.0.3</equalsverifier.version>
