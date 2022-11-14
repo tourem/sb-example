@@ -17,7 +17,7 @@
     <entrepot-version>1.29.0</entrepot-version>
     <spring-batch.version>3.0.9.RELEASE</spring-batch.version>
     <apache-codec.version>1.7</apache-codec.version>
-    <spring-version>4.1.1.RELEASE</spring-version>
+    <spring-version>4.2.7.RELEASE</spring-version>
     <lombok.version>1.16.18</lombok.version>
     <jackson-2.version>2.6.2</jackson-2.version>
     <aspectj.version>1.8.10</aspectj.version>
